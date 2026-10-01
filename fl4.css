@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    padding: opx;
+    background-color: rgb(253, 252, 252);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 100vh;
+
+}
+.main-content{
+    display: flex;
+    flex: 1;
+
+}
+
+
+.navbar {
+    background-color: #333382;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100px;
+}
+
+
+.enlaces a{
+    color: aliceblue;
+text-decoration: none;
+justify-content:flex-start;
+}
+
+.enlaces{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: row;
+    justify-content:center;
+    align-content: start;
+    align-items: center;
+    list-style: none;   
+}
+
+
+div {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    justify-content: first baseline;
+    background-color: aliceblue;
+
+}
+
+.textito {
+    flex: 1;
+
+}
+
+img{
+    width: 500px;
+height: auto;
+flex-shrink: 0px;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:#ffffff;
+}
+
+.tarjeta{
+    display:flex;
+    flex-direction: column;
+    background-color:#333382;
+    min-width: 250px;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    min-height: 150px;
+    justify-content: center;
+    gap:20px;
+    flex:1;
+    margin: 5px;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: beige;
+    border-color: rgb(79, 9, 9);
+    border: 199px;
+    font-size: small;
+    overflow: hidden;
+}
+
+.footer{
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #333382;
+    color: aliceblue;
+    align-items:end ;
+   
+}
+.general1 {
+    background-color: rgb(255, 254, 254)
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    background-color:#333382;
+}
+.contenido {
+    display: flex;
+    flex:1;
+}
+a{
+color: inherit;
+text-decoration: none;
+}
+
+.py1 {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    background-color: inherit;
+   
+}
+.tibu {
+    width: 90px;
+    height: auto;
+    margin: 10px;
+
+}
+.txt{
+    padding: 1.5rem;
+}
